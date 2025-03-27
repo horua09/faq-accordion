@@ -5,10 +5,10 @@ window.onload = (event) => {
         
         if (shouldIShowIt) {
             answer.style.display = "block";
-            if (icon) icon.src = "assets/images/icon-minus.svg";
+            if (icon) icon.src = "icon-minus.svg";
         } else {
             answer.style.display = "none";
-            if (icon) icon.src = "assets/images/icon-plus.svg";
+            if (icon) icon.src = "icon-plus.svg";
         }
     };
     
